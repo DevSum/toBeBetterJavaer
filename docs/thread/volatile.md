@@ -240,7 +240,7 @@ public class Penguin {
     // 一个成员变量 money
     private int money = 10000;
 
-    // 避免通过 new 初始化对象，构造方法应为 public 或 private
+    // 避免通过 new 初始化对象，构造方法应为 private
     private Penguin() {}
 
     public void beating() {
